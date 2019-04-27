@@ -1,5 +1,4 @@
-                                                                                                                       import de.voidplus.leapmotion.*;
-import arb.soundcipher.*;
+
 import ddf.minim.*;
 import processing.sound.*;
   
