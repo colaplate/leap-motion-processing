@@ -2,7 +2,7 @@
 import arb.soundcipher.*;
 import ddf.minim.*;
 import processing.sound.*;
-
+  
 Blob b;
 SCScore score = new SCScore();
 float[] r = new float[4];
@@ -44,9 +44,9 @@ void setup() {
   //file = minim.loadFile( fileName, 512);
   //a1 = minim.loadFile( "beat2.mp3", 512);
   //a2 = minim.loadFile( "beat3.mp3", 512);
-  f0 = minim.loadFile( "beat3.mp3", 512);
-  f1 = minim.loadFile( "f1.mp3", 512);
-  f2 = minim.loadFile( "f2.mp3", 512);
+  f0 = minim.loadFile( "beat3.mp3");
+  f1 = minim.loadFile( "f1.mp3");
+  f2 = minim.loadFile( "f2.mp3");
   //f3 = minim.loadFile( "f3.mp3", 512);
   //f4 = minim.loadFile( "f4.mp3", 512);
   //f5 = minim.loadFile( "f5.mp3", 512);
