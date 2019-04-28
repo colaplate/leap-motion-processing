@@ -1,9 +1,8 @@
-
+import de.voidplus.leapmotion.*;
 import ddf.minim.*;
 import processing.sound.*;
   
 Blob b;
-SCScore score = new SCScore();
 float[] r = new float[4];
 float gain;
 LeapMotion leap;
@@ -113,8 +112,7 @@ println("start");
    // println(numOut);
     if(numOut == t ) {
       //return;
-    }
-    else{
+    } else{
       t = numOut;
     
     
