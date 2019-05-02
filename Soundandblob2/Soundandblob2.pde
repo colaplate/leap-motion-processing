@@ -314,8 +314,6 @@ void draw() {
        sum += 500 * radius1/d ;
        }
        
-         
-     
       pixels[ind] = color(constrain(sum,155,220), random(100,150), 255); 
       
      }
