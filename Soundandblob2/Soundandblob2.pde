@@ -1,3 +1,4 @@
+import codeanticode.syphon.*;
 import de.voidplus.leapmotion.*;
 import ddf.minim.*;
 import ddf.minim.spi.*; // for AudioRecordingStream
